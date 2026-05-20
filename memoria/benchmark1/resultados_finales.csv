@@ -1,0 +1,4 @@
+Modelo,mIoU (%),FPS,Params (M)
+segformer,71.84,37.8,27.4
+deeplabv3plus,63.82,70.9,26.7
+unet,57.25,66.2,32.5
