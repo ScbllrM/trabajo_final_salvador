@@ -210,7 +210,7 @@ __marimo__/
 data/
 
 # Memoria
-memoria/
+# memoria/
 
 # Checkpoints
 checkpoints/
