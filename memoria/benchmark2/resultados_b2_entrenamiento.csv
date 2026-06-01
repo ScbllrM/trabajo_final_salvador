@@ -1,0 +1,4 @@
+,Modelo,Mejor mIoU(%) entrenamiento,Tiempo entrenamiento (min)
+0,U-Net,68.96,456.03
+1,DeepLabV3plus,71.82,442.05
+2,SegFormer,75.77,562.18
