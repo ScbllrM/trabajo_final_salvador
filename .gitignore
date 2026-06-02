@@ -214,3 +214,6 @@ data/
 
 # Checkpoints
 checkpoints/
+
+# Copia_seg
+copia_seg/
