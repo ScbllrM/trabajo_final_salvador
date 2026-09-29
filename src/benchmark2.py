@@ -30,7 +30,7 @@ torch.manual_seed(CONFIG["seed"])
 np.random.seed(CONFIG["seed"])
 
 
-city_clases = [
+CITY_CLASES = [
 
     "license plate"
     "unlabeled"
@@ -211,15 +211,6 @@ def forward_segformer_val(model, images):
 #______________________________________________
 
 
-
-
-
-
-
-
-
-
-
 if __name__=="__main__":
 
     print("\n\nIniciando evaluación\n\n")
@@ -231,7 +222,7 @@ if __name__=="__main__":
     }
 
     df_city = evaluar_benchmark(csv_path=CONFIG["res_data"], modelos_dict=city_models, indice=2,
-                                loader=test_loader, CONFIG=CONFIG, ignore_index=255, class_names=city_clases)
+                                loader=test_loader, CONFIG=CONFIG, ignore_index=255)
 
 
 
